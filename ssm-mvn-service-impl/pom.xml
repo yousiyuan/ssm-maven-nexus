@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>ssm-mvn-service-impl</artifactId>
+	<packaging>jar</packaging>
+
+	<name>ssm-mvn-service-impl</name>
+	<url>http://maven.apache.org</url>
+
+	<!-- parent用于继承 -->
+	<parent>
+		<!-- 父工程坐标 -->
+		<groupId>com.ssm.demo</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<!-- 父工程的pom相对路径 -->
+		<relativePath>../ssm-mvn-web-parent/pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<!-- 单元测试依赖包 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.ssm.demo</groupId>
+			<artifactId>ssm-mvn-dao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ssm.demo</groupId>
+			<artifactId>ssm-mvn-dao-impl</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ssm.demo</groupId>
+			<artifactId>ssm-mvn-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ssm.demo</groupId>
+			<artifactId>ssm-mvn-entity</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ssm.demo</groupId>
+			<artifactId>ssm-mvn-commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>
