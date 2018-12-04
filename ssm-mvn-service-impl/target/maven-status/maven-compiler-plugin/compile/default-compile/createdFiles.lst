@@ -1,0 +1,5 @@
+com\ssm\demo\service\impl\OrderDetailServiceImpl.class
+com\ssm\demo\service\impl\CustomerServiceImpl.class
+com\ssm\demo\service\impl\OrderServiceImpl.class
+com\ssm\demo\service\impl\BaseServiceImpl.class
+com\ssm\demo\service\impl\ProductServiceImpl.class

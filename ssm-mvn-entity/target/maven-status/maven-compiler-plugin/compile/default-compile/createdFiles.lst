@@ -1,0 +1,4 @@
+com\ssm\demo\entity\Products.class
+com\ssm\demo\entity\Customers.class
+com\ssm\demo\entity\OrderDetails.class
+com\ssm\demo\entity\Orders.class
