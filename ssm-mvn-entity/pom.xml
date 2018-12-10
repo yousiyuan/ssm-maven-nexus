@@ -7,11 +7,6 @@
 
 	<name>ssm-mvn-entity</name>
 	<url>http://maven.apache.org</url>
-
-	<properties>
-		<argLine>-Dfile.encoding=UTF-8</argLine>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 	
 	<!-- parent用于继承 -->
 	<parent>
