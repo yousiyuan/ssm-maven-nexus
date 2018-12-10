@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ssm.demo</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>ssm-mvn-web-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- 父工程作为管理者，packaging指定为pom，让所有子模块对它进行继承 -->
 	<packaging>pom</packaging>
