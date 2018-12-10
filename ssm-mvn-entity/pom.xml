@@ -17,7 +17,7 @@
 	<parent>
 		<!-- 父工程坐标 -->
 		<groupId>com.ssm.demo</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>ssm-mvn-web-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<!-- 父工程的pom相对路径 -->
 		<relativePath>../ssm-mvn-web-parent/pom.xml</relativePath>
